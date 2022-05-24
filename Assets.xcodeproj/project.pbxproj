@@ -13,6 +13,10 @@
 		1AD6118F283A5F5A0025DDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6118D283A5F5A0025DDAC /* Main.storyboard */; };
 		1AD61191283A5F5C0025DDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD61190283A5F5C0025DDAC /* Assets.xcassets */; };
 		1AD61194283A5F5C0025DDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD61192283A5F5C0025DDAC /* LaunchScreen.storyboard */; };
+		1AD6119E283A69600025DDAC /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AD6119D283A69600025DDAC /* contacts.json */; };
+		1AD611A2283A798E0025DDAC /* jsoninfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD611A1283A798E0025DDAC /* jsoninfo.swift */; };
+		1AD611AC283AB1820025DDAC /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD611AB283AB1820025DDAC /* secondViewController.swift */; };
+		1AD611D0283ADE460025DDAC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD611CF283ADE460025DDAC /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1AD61190283A5F5C0025DDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AD61193283A5F5C0025DDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AD61195283A5F5C0025DDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD6119D283A69600025DDAC /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		1AD611A1283A798E0025DDAC /* jsoninfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsoninfo.swift; sourceTree = "<group>"; };
+		1AD611AB283AB1820025DDAC /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		1AD611CF283ADE460025DDAC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		1AD61186283A5F5A0025DDAC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1AD6119D283A69600025DDAC /* contacts.json */,
 				1AD61187283A5F5A0025DDAC /* AppDelegate.swift */,
 				1AD61189283A5F5A0025DDAC /* SceneDelegate.swift */,
 				1AD6118B283A5F5A0025DDAC /* ViewController.swift */,
@@ -63,6 +72,9 @@
 				1AD61190283A5F5C0025DDAC /* Assets.xcassets */,
 				1AD61192283A5F5C0025DDAC /* LaunchScreen.storyboard */,
 				1AD61195283A5F5C0025DDAC /* Info.plist */,
+				1AD611A1283A798E0025DDAC /* jsoninfo.swift */,
+				1AD611AB283AB1820025DDAC /* secondViewController.swift */,
+				1AD611CF283ADE460025DDAC /* TableViewCell.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD6119E283A69600025DDAC /* contacts.json in Resources */,
 				1AD61194283A5F5C0025DDAC /* LaunchScreen.storyboard in Resources */,
 				1AD61191283A5F5C0025DDAC /* Assets.xcassets in Resources */,
 				1AD6118F283A5F5A0025DDAC /* Main.storyboard in Resources */,
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD6118C283A5F5A0025DDAC /* ViewController.swift in Sources */,
+				1AD611D0283ADE460025DDAC /* TableViewCell.swift in Sources */,
+				1AD611AC283AB1820025DDAC /* secondViewController.swift in Sources */,
 				1AD61188283A5F5A0025DDAC /* AppDelegate.swift in Sources */,
 				1AD6118A283A5F5A0025DDAC /* SceneDelegate.swift in Sources */,
+				1AD611A2283A798E0025DDAC /* jsoninfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
